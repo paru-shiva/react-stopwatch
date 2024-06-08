@@ -1,0 +1,57 @@
+/* Write CSS here */
+.stopwatchComponent {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 100vh;
+  background-size: 100% 100%;
+}
+
+.clock-div {
+  display: flex;
+  flex-direction: column;
+  padding: 80px;
+  margin-left: 120px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}
+
+.clock {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockImage {
+  height: 25px;
+  width: 25px;
+  margin: 10px;
+}
+
+.button {
+  padding: 8px 18px;
+  border-radius: 5px;
+  margin: 15px;
+  border: none;
+  color: white;
+}
+
+.start-btn {
+  background-color: #1db05f;
+}
+
+.stop-btn {
+  background-color: #ef0d36;
+}
+
+.reset-btn {
+  background-color: #eaa800;
+}
